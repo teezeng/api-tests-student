@@ -21,3 +21,15 @@ func TearDownSuite() {
 func Precondition(text string) {
 	utils.LogWithLabelAndTimeStamp("Precondition", text)
 }
+
+func Step(text string) {
+	utils.LogWithLabelAndTimeStamp("Step", text)
+}
+
+func Check(text string) {
+	utils.LogWithLabelAndTimeStamp("Check", text)
+}
+
+func Postcondition(text string) {
+	utils.LogWithLabelAndTimeStamp("Postcondition", text)
+}
